@@ -39,6 +39,6 @@ title: Build up the <span style="color: #700000;">**Einheitsfront**</span> among
 subtitle: The workers will win, the Nazis will loose.
 unavailable-subtitle: [? if advisor_action_timer > 0 : [+ advisor_action_timer +] months before next advisor action. ?]
 choose-if: advisor_action_timer = 0
-on-arrival: advisor_action_timer = 6; left_strength += 5; kpd_relation += 6*(1-dissent); reformist_strength -= 5; communist_coalition += 1 if kpd_cooperation_seen <= 1; kpd_cooperation_seen += 1; workers_kpd += 2; workers_spd += 2; unemployed_nsdap -=5
+on-arrival: advisor_action_timer = 6; left_strength += 5; kpd_relation += 6*(1-dissent); reformist_strength -= 5; communist_coalition += 1 if kpd_cooperation_seen <= 1; kpd_cooperation_seen += 1; workers_kpd += 2; workers_spd += 2; unemployed_nsdap -=5; labor_dissent -= 2; left_dissent -= 5
 
 History will thank us.
