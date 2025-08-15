@@ -1,5 +1,6 @@
 title: USPD will finally join us
 new-page: true
+subtitle: Our old comrades
 view-if: year = 1930 and month >= 4 and left_strength > reformist_strength
 tags: event
 max-visits: 1
