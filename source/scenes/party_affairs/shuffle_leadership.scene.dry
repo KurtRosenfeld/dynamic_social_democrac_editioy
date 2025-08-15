@@ -3,7 +3,7 @@ new-page: true
 is-card: true
 tags: party_affairs
 view-if: shuffle_leadership_timer = 0 and difficulty >= 0 and not started
-on-arrival: month_activities += 1; shuffle_leadership_timer = 10;
+on-arrival: month_activities += 1; shuffle_leadership_timer = 5;
 card-image: img/vorwarts_2.jpg
 go-to: rm_main
 
@@ -328,7 +328,14 @@ go-to: rm_main_menu
 
 Radbruch has been removed as an advisor. 
 
+@remove_brecht
+title: Remove Brecht
+view-if: brecht_advisor = 1
+tags: remove_advisor
+on-arrival: brecht_advisor = 0; n_advisors -= 1
+go-to: rm_main_menu
 
+Brecht tells you to fuck yourself. 
 
 
 
@@ -708,5 +715,18 @@ go-to: advisor_menu
 tags: nonfactional_advisor
 
 Friedrich Stampfer is now an advisor.
+
+
+@add_brecht
+title: Berthold Brecht
+subtitle: Brecht is a leftist playwright. {!<br><br>!}[? if difficulty < 0 : Actions - Smear Campaign, Leftist Media, <span style="color: #700000;">Einheitsfront</span> ?]
+is-card: true
+card-image: img/portraits/StampferFriedrich.jpg
+view-if: brecht_advisor = 0 and n_advisors < 3
+on-arrival: brecht_advisor = 1; n_advisors += 1
+go-to: advisor_menu
+tags: nonfactional_advisor
+
+Brecht is not judging.
 
 
