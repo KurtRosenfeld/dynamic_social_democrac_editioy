@@ -3,7 +3,7 @@ new-page: true
 view-if: year = 1930 and month >= 4 and left_strength >= reformist_strength
 tags: event
 max-visits: 1
-face-image:
+face-image: img/USPD.jpg
 
 = USPD joins?
   
