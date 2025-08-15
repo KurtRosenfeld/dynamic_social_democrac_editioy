@@ -1050,6 +1050,7 @@ Q.wirth_advisor = 0; // troll
 Q.hirschfeld_advisor = 0; // Magnus Hirschfeld
 Q.radbruch_advisor = 0; // Gustav Radbruch
 Q.stampfer_advisor = 0; // Friedrich Stampfer
+Q.brecht_advisor = 0; // Berthold Brecht
 
 if (Q.achievement_schwarz_rot_gold) {
     const content = document.getElementById('content');
