@@ -17,7 +17,7 @@ go-to: rm_main
 
 @rm_main
 title: Remove advisors.
-tags: center_advisor, left_advisor, reformist_advisor, labor_advisor, neorev_advisor, nonfactional_advisor 
+tags: center_advisor, left_advisor, reformist_advisor, labor_advisor, neorev_advisor, nonfactional_advisor, indep_left_advisor 
 on-arrival: {!
 Q.last_time_check = Q.time;
 if (Q.time > Q.last_time_check) {
@@ -355,6 +355,7 @@ frequency: 1
 
 - @centrist: Add Centrists
 - @left: Add Leftists
+- @independent_left: Add Independent Leftists
 - @reformist: Add Reformists
 - @labor: Add Labor
 - @neorev: Add Neorevisionists
@@ -377,6 +378,11 @@ view-if: n_advisors < 3
 view-if: n_advisors < 3
 
 - #left_advisor
+
+@independent_left
+view-if uspdism > 0 and n_advisors < 3
+
+- #indep_left_advisor
 
 @labor
 view-if: n_advisors < 3
@@ -558,6 +564,10 @@ tags: left_advisor
 Anna Siemsen is now an advisor.
 
 
+
+# independent_left
+
+// to be added
 
 # labor
 
