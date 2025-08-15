@@ -14,7 +14,17 @@ The USPD split into three, <span style="color: #560000;">**KPD**</span>, <span s
 - @push_the_einheitsfront
 
 @accept
+title: Welcome them!
+subtitle: We love our <span style="color: #c00000;">comrades</span>.
+on-arrival: pro_republic += 1; kpd_relations += 2; workers_spd += 1
 
 @refuse
+title: We won't accept them.
+subtitle: They could have joined earlier, though.
+on-arrival: kpd_relations -= 1; ddp_relations += 2; reformist_strength += 3
 
 @push_the_einheitsfront
+title: Push the Einheitsfront further.
+subtitle: this will help our effort of unity among the workers.
+view-if: advisor_brecht = 1 or advisor_rosenfeld = 1
+on-arrival: kpd_relations += 5; labor_dissent -= 3; left_dissent -= 5; center_dissent -= 1
