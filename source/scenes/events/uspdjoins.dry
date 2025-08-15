@@ -26,5 +26,5 @@ on-arrival: kpd_relation -= 1; ddp_relation += 2; reformist_strength += 3
 @push_the_einheitsfront
 title: Push the Einheitsfront further.
 subtitle: this will help our effort of unity among the workers.
-view-if: advisor_brecht = 1 or advisor_rosenfeld = 1
-on-arrival: kpd_relation += 5; labor_dissent -= 3; left_dissent -= 5; center_dissent -= 1
+view-if: brecht_advisor = 1 or rosenfeld_advisor = 1 or breitscheid_advisor = 1
+on-arrival: kpd_relation += 5; labor_dissent -= 3; left_dissent -= 5; center_dissent -= 1; nationalism -= 5
