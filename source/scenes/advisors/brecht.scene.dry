@@ -27,16 +27,16 @@ They won't like that for sure.
 
 @leftist_culture
 title: Push the establishement to the <span style="color: #700000;">**left**</span>
-subtitle: through his works
+subtitle: Brecht will win over some among the Bourgeois.
 unavailable-subtitle: [? if advisor_action_timer > 0 : [+ advisor_action_timer +] months before next advisor action. ?]
 choose-if: advisor_action_timer = 0
 on-arrival: advisor_action_timer = 6; left_strength += 2; kpd_relation += 2*(1-dissent); reformist_strength -= 3; new_middle_spd += 2; new_middle_kpd += 1; old_middle_spd += 1; workers_spd += 3
 
-We are on fire.
+They'll have to get it.
 
 @einheitsfront
-title: Cooperation with the <span style="color: #700000;">**KPD**</span>
-subtitle: the workers will win.
+title: Build up the <span style="color: #700000;">**Einheitsfront**</span> among the workers
+subtitle: The workers will win, the Nazis will loose.
 unavailable-subtitle: [? if advisor_action_timer > 0 : [+ advisor_action_timer +] months before next advisor action. ?]
 choose-if: advisor_action_timer = 0
 on-arrival: advisor_action_timer = 6; left_strength += 5; kpd_relation += 6*(1-dissent); reformist_strength -= 5; communist_coalition += 1 if kpd_cooperation_seen <= 1; kpd_cooperation_seen += 1; workers_kpd += 2; workers_spd += 2; unemployed_nsdap -=5
