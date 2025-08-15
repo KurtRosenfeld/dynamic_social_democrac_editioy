@@ -1,0 +1,20 @@
+title: USPD will finally join us
+new-page: true
+view-if: year = 1930 and month >= 4 and left_strength >= reformist_strength
+tags: event
+max-visits: 1
+face-image:
+
+= USPD joins?
+  
+The USPD split into three, <span style="color: #560000;">**KPD**</span>, <span style="color: #E20000;">SPD</span> and a <span style="color: #DD106D;">rest</span>. Our turn to the left convinced them of rejoining now.
+
+- @accept
+- @refuse
+- @push_the_einheitsfront
+
+@accept
+
+@refuse
+
+@push_the_einheitsfront
