@@ -1023,6 +1023,11 @@ Q.levi_dead = 0;
 Q.rosenfeld_advisor = 0; // Kurt Rosenfeld
 Q.seydewitz_advisor = 0; // Max Seydewitz
 
+// independent left advisors
+Q.ledebour_advisor = 0; // Georg Ledebour
+Q.liebknecht_advisor = 0; // Theodor Liebknecht
+Q.thalheimer_advisor = 0; // August Thalheimer
+
 // centrist alternate advisors
 Q.pfulf_advisor = 0; // Antonie Pfülf
 Q.breitscheid_advisor = 0; // Rudolf Breitscheid
