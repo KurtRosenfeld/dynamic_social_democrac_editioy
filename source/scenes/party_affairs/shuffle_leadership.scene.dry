@@ -721,7 +721,7 @@ Friedrich Stampfer is now an advisor.
 title: Berthold Brecht
 subtitle: Brecht is a leftist playwright. {!<br><br>!}[? if difficulty < 0 : Actions - Smear Campaign, Leftist Culture, <span style="color: #700000;">Einheitsfront</span> ?]
 is-card: true
-card-image:
+card-image: img/portraits/BrechtBerthold.jpg
 view-if: brecht_advisor = 0 and n_advisors < 3
 on-arrival: brecht_advisor = 1; n_advisors += 1
 go-to: advisor_menu
