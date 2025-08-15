@@ -17,3 +17,29 @@ Brecht is a <span style="color: #c00000;">*leftist*</span> playwright.
 
 
 @smear_campaign
+title: Fuck the Bourgeois
+subtitle: We will hurt the Right
+unavailable-subtitle: [? if advisor_action_timer > 0 : [+ advisor_action_timer +] months before next advisor action. ?]
+choose-if: advisor_action_timer = 0
+on-arrival: advisor_action_timer = 6; dvp_relation -= 5; center_relation -= 1; kpd_relation += 5; new_middle_dvp -= 2; rural_dnvp -=1; rural_dvp -= 5; new_middle_nsdap -= 2; old_middle_nsdap -= 1
+
+They won't like that for sure.
+
+@leftist_culture
+title: Push the establishement to the <span style="color: #700000;">**left**</span>
+subtitle: through his works
+unavailable-subtitle: [? if advisor_action_timer > 0 : [+ advisor_action_timer +] months before next advisor action. ?]
+choose-if: advisor_action_timer = 0
+on-arrival: advisor_action_timer = 6; left_strength += 2; kpd_relation += 2*(1-dissent); reformist_strength -= 3; new_middle_spd += 2; new_middle_kpd += 1; old_middle_spd += 1; workers_spd += 3
+unavailable-subtitle: [? if advisor_action_timer > 0 : [+ advisor_action_timer +] months before next advisor action. ?]
+
+We are on fire.
+
+@einheitsfront
+title: Cooperation with the <span style="color: #700000;">**KPD**</span>
+subtitle: the workers will win.
+unavailable-subtitle: [? if advisor_action_timer > 0 : [+ advisor_action_timer +] months before next advisor action. ?]
+choose-if: advisor_action_timer = 0
+on-arrival: advisor_action_timer = 6; left_strength += 5; kpd_relation += 6*(1-dissent); reformist_strength -= 5; communist_coalition += 1 if kpd_cooperation_seen <= 1; kpd_cooperation_seen += 1; workers_kpd += 2; workers_spd += 2; unemployed_nsdap -=5
+
+History will thank us.
