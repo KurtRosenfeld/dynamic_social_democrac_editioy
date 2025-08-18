@@ -22,7 +22,7 @@ on-arrival: pro_republic += 1; kpd_relation += 2; workers_spd += 1
 @refuse
 title: We won't accept them.
 subtitle: They could have joined earlier, though.
-on-arrival: kpd_relation -= 1; ddp_relation += 2; reformist_strength += 3
+on-arrival: kpd_relation -= 1; ddp_relation += 2; reformist_strength += 3; independent_left_advisors = 0
 
 @push_the_einheitsfront
 title: Push the Einheitsfront further.
