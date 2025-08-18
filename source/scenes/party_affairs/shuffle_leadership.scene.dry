@@ -17,7 +17,7 @@ go-to: rm_main
 
 @rm_main
 title: Remove advisors.
-tags: center_advisor, left_advisor, reformist_advisor, labor_advisor, neorev_advisor, nonfactional_advisor, indep_left_advisor 
+tags: center_advisor, left_advisor, reformist_advisor, labor_advisor, neorev_advisor, nonfactional_advisor, indepleft_advisor 
 on-arrival: {!
 Q.last_time_check = Q.time;
 if (Q.time > Q.last_time_check) {
