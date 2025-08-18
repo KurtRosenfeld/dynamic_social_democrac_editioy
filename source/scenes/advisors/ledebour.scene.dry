@@ -1,6 +1,6 @@
 title: Georg Ledebour
 is-pinned-card: true
-tags: advisor, left
+tags: advisor, indep_left
 card-image: img/portraits/LedebourGeorg.jpg
 view-if: ledebour_advisor = 1
 new-page: true 
