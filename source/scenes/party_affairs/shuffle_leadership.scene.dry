@@ -591,10 +591,10 @@ title: Georg Ledebour
 subtitle: Ledebour used to be a member of the USPD. {!<br><br>!}[? if difficulty < 0 : Actions - Promote a President, <span style="color: #700000;">Einheitsfront</span> ?]
 is-card: true
 card-image: img/portraits/LedebourGeorg.jpg
-tags: indepleft_advisor
 view-if: ledebour_advisor = 0 and n_advisors < 4 and left_split = 0
 on-arrival: ledebour_advisor = 1; n_advisors += 1; left_strength += 5; left_dissent -= 7
 go-to: advisor_menu
+tags: indepleft_advisor
 
 Ledebour is now an advisor.
 
@@ -606,6 +606,7 @@ card-image: img/portraits/LiebknechtTheodor.jpg
 view-if: liebknecht_advisor = 0 and n_advisors < 4 and left_split = 0
 on-arrival: liebknecht_advisor = 1; n_advisors += 1; left_strength += 5; left_dissent -= 5
 go-to: advisor_menu
+tags: indepleft_advisor
 
 Theodor Liebknecht is now an advisor.
 
