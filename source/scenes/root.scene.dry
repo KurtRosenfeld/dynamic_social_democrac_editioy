@@ -1175,6 +1175,9 @@ const achievements = [
   "achievement_rotes_bayern",
   "achievement_1919_geracht",
   "achievement_nach_der_spd_wir"
+  "achievement_paris_meine_liebe"
+  "achievement_der_antiführer"
+  "achievement_wahre_freunde"
 ];
 
 Q.unlockedCount = achievements.filter(key => Q[key] === 1).length;
