@@ -380,7 +380,7 @@ view-if: n_advisors < 3
 - #left_advisor
 
 @independent_left
-view-if uspdism > 0 and n_advisors < 3
+view-if: uspdism > 0 and n_advisors < 3
 
 - #indep_left_advisor
 
