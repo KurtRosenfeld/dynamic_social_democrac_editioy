@@ -244,6 +244,25 @@ go-to: rm_main_menu
 Siemsen has been removed as an advisor. The Leftist faction disapproves.
 
 
+#independent_left
+
+@remove_ledebour
+title: Remove Ledebour
+view-if: ledebour_advisor = 1
+tags: remove_advisor
+on-arrival: ledebour_advisor = 0; left_dissent += 4; n_advisors -= 1
+go-to: rm_main_menu
+
+Ledebour has left weakening the Left.
+
+@remove_liebknecht
+title: Remove Liebknecht
+view-if: liebknecht_advisor = 1
+tags: remove_advisor
+on-arrival: liebknecht_advisor = 0; left_dissent += 3; n_advisors -= 1
+go-to: rm_main_menu
+
+Liebknecht appears to be not the real Karl Liebknecht... interesting.
 
 
 # neorevisionists
