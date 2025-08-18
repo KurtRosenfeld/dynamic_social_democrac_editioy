@@ -1,0 +1,12 @@
+title: Theodor Liebknecht
+is-pinned-card: true
+tags: advisor, independent_left
+card-image: img/portraits/LiebknechtTheodor.jpg
+view-if: liebknecht_advisor = 1
+new-page: true 
+
+= Theodor Liebknecht
+
+you name it
+
+- @root: Return to main
