@@ -1,0 +1,22 @@
+title: Georg Ledebour
+is-pinned-card: true
+tags: advisor, indepleft
+card-image: img/portraits/LedebourGeorg.jpg
+view-if: ledebour_advisor = 1
+new-page: true 
+
+= Georg Ledebour
+
+Ledebour used to be in the USPD.
+
+- @promote_a_socialist_president
+
+@promote_a_socialist_president
+title: Promote a <span style="color: #c00000;">socialist</span> President
+subtitle: Push the <span style="color: #c00000;">**SPD**</span> to the left.
+unavailable-subtitle: [? if advisor_action_timer > 0 : [+ advisor_action_timer +] months before next advisor action. ?]
+choose-if: advisor_action_timer = 0
+on-arrival: advisor_action_timer = 6; left_strength += 1; left_dissent -= 1
+
+We can't rely on the Bourgeoisie. No matter who runs for the <span style="color: #c00000;">Left</span> must be President
+
